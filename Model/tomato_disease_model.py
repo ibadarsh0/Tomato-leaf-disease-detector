@@ -1,0 +1,1 @@
+model = tf.keras.models.load_model('tomato.h5', compile=False)
