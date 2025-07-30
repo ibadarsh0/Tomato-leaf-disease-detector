@@ -6,6 +6,9 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping 
 import os
 
+Model.save("Model/tomato_disease_model.keras")  # or use .h5 if preferred
+
+
 # --- Configuration ---
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32

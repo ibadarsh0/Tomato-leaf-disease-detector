@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load your model (adjust path if needed)
-model = tf.keras.models.load_model("Model/tomato_model.h5")
+model = tf.keras.models.load_model("Model/tomato_disease_model.keras")
 
 # Define class names
 class_names = ['Healthy', 'Bacterial Spot', 'Early Blight', 'Late Blight', 'Leaf Mold', 'Septoria Leaf Spot', 'Target Spot', 'Yellow Leaf Curl Virus', 'Mosaic Virus', 'Spider Mites']
